@@ -39,17 +39,17 @@ def app():
 
     # asking for file
     file_upload = st.sidebar.file_uploader('Upload your Data Her', type=['csv'], help="Only `csv` Please")
-    name = st.sidebar.selectbox('Selcect Sample Data', options=['None','Forbes Richest Atheletes', 'IT Salary Survey EU  2020'], help='Select Data From Here')
+    name = st.sidebar.selectbox('Selcect Sample Data', options=['None','Forbes Richest Atheletes', 'IT Salary Survey EU 2020'], help='Select Data From Here')
 
     # smple file getting function
     def get_dataset(name, sample=True, custome=False ):
         try:
             if sample:
                 if name=='Forbes Richest Atheletes': # matchin user choose file 
-                    df = pd.read_csv('ed_data\ForbesRichestAtheletes.csv')
+                    df = pd.read_csv('ForbesRichestAtheletes.csv')
                     return  df # retruning the data frame
-                elif name == 'IT Salary Survey EU  2020': # 
-                    df = pd.read_csv('ed_data\ITSalarySurveyEU2020.csv')
+                elif name == 'IT Salary Survey EU 2020': # 
+                    df = pd.read_csv('ITSalarySurveyEU2020.csv')
                     return df
             if custome:
                 df = pd.read_csv(file_upload)
