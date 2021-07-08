@@ -46,10 +46,10 @@ def app():
         try:
             if sample:
                 if name=='Forbes Richest Atheletes': # matchin user choose file 
-                    df = pd.read_csv("ed_data\Forbes Richest Atheletes.csv")
+                    df = pd.read_csv("ed_data\ForbesRichestAtheletes.csv")
                     return  df # retruning the data frame
                 elif name == 'IT Salary Survey EU  2020': # 
-                    df = pd.read_csv('ed_data\IT Salary Survey EU  2020.csv')
+                    df = pd.read_csv('ed_data\IT SalarySurveyEU2020.csv')
                     return df
             if custome:
                 df = pd.read_csv(file_upload)
