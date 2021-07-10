@@ -11,7 +11,3 @@ The app may take some time to load, like 1 min or less.
 
 
 
-steps:
-- title: What is GitHub?
-  description: After watching this video, close the first issue in your repository.
-  video: https://youtube.com/embed/<6wd-zUU0UMQ?list=PLPL68eAk13ftZWE40_teT3NCWW5ChFqWs>
