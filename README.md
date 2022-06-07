@@ -12,6 +12,9 @@ UIML updated files
 The app may take some time to load, like 1 min or less.
 📊📊
 
+<p align="center">
+<img src="https://github.com/subha996/UI-ML-V2/blob/main/uiml.png" >
+</p>
 
 [Complete Video Explanation](https://www.youtube.com/playlist?list=PLPL68eAk13ftZWE40_teT3NCWW5ChFqWs)
 
