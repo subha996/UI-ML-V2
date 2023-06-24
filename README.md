@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/under%20the%20construction-8A2BE2" >
+<img src="https://img.shields.io/badge/under%20construction-8A2BE2" >
 </p>
 
 <h1 align="center"> 🤖 UI-ML 🤖</h1>
